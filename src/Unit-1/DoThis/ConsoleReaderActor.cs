@@ -29,10 +29,10 @@ namespace WinTail
             }
 
             // send input to the console writer to process and print
-            _consoleWriterActor.Tell(read);
+            // YOU NEED TO FILL IN HERE
 
             // continue reading messages from the console
-            Self.Tell("continue");
+            // YOU NEED TO FILL IN HERE
         }
 
     }
